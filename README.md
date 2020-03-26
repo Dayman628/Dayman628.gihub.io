@@ -6,148 +6,47 @@ From there I went in to VSCode and, following the When/Then instructions, adjust
 
 
 
+# 01 HTML CSS Git: Code Refactor
 
+One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
 
+Your task is to refactor an existing webpage to make it accessible. An important rule to follow when working with someone else's code is the Scout Rule:
 
+> Always leave the code you are editing a little cleaner than you found it.
 
+To impress clients, you should always go the extra mile and improve their codebase for long term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
 
-# University of Arizona Online Coding Bootcamp
- 
-### March 2020 Cohort
+## User Story
 
------------------------------------------
-
-## Table of Contents
-* [Welcome](#welcome)
-* [Instructional Staff](#instructional-staff)
-    * [Instructor](#instructor)
-    * [Teaching Assistants](#teaching-assistants)
-* [Minimum Requirements](#minimum-requirements)
-    * [Homework](#homework)
-    * [Attendance](#attendance)
-    * [Projects](#projects)
-* [Important Links](#important-links)
-* [Resources We Love](#resources-we-love)
-
------------------------------------------
-## Welcome
-
-Welcome to the University of Arizona Online Coding Bootcamp. This six month program is meant to help you to grow in to a full-stack developer, but it will challenge you and potentially push you outside of your comfort zone at some points. With that being said, prepare for an intense six months of learning, work, and probably a bit less sleep than usual. It will be a challenge, but I am positive that you are capable of being successful! Be sure to plan for the intensity and prepare to make the necessary short term sacrifices: they will pay off!
-
-We look forward to meeting you on the first day and working with you over the course of the program!
-
-\- Your Instructional Staff
-
-## Instructional Staff
-
-### Instructor
-
-![Anthony (TJ) Rivas](images/anthony.jpg)
-#### Anthony (TJ) Rivas 
-
-TJ is a Web Applications Engineer for a manufacturing company in Tucson, Arizona. He is part of a small development team responsible for developing an in-house ERP software that is used to run the business: everything from sales to shipping. He started teaching coding bootcamps at The University of Arizona in January 2018, and this will be his 4th cohort, but his second online cohort. He has 6 years of professional experience, and many years of personal experience developing for the Web. He has a passion for high quality, modern, and performant code, with a focus on JavaScript. In his free time, he spends time with his wife and 1 year-old daughter, plays video and board games, cooks, and codes.
-
-### Teaching Assistants
-
-![Sangeetha Kaliaperumal](images/sangeetha.jpg)
-#### Sangeetha Kaliaperumal 
-
-Sangeetha Kaliaperumal is a mother of 2 kids living in Denver, Colorado. She started coding from highschool. She completed Masters of Computer Applications, University of Chennai. She is also a certified Oracle Pl/SQL Associate and ISTQB certified tester.  She is passionate about coding and been with Trilogy for 3 years.
-
-
-![Philip Howley](images/rsz_philip-howley.jpg)
-#### Philip Howley 
-
-Phil has taught web technologies at various colleges in Los Angeles since 2003. He has a BS in Financial Management from Clemson University and an MBA with a concentration in CIS from Temple University. Phil completed a 3-month full-time General Assembly Full Stack program as a student a few years back. Phil has TA'd on campus at UCLA last year and just recently wrapped up TA'ing online for UCLA. Both classes were for this same 6-month part-time full-stack program. Phil's full time gig is as an Okta consultant.  
-
------------------------------------------
-
-## Minimum Requirements
-
-### Homework
-
-You must complete **90%** of the homework assignments. (You can miss **no more** than **2 assignments**.) 
-Homework submissions **must be on time**. Late submissions will not be counted.
-
-### Attendance
-
-Attendance must be maintained at a **83%** rate. (You can miss **no more** than a total of **12 classes**. Though we highly recommend missing no more than **4 classes**.)  
-
-### Projects
-
-You must give a full effort and submit **100%** of every project.  
-Over the course of our 24 week program, you will be required to complete:  
-* 3 Group Projects
-
-### TA Homework Grading
-```js
-const graders = {
-  phil: [
-    'Andrew Morrow',
-    'Ann Chenevert-Steffler',
-    'Curtis Rogers',
-    'Devin Payton',
-    'Emily Gallina',
-    'emmett bishop',
-    'Gedalya Krycer',
-    'Gene Torres',
-    'Isaac Mckittrick',
-    'Jacob Cravey',
-    'Jacob Peters',
-    'James Gitumbi',
-    'Jerry Forsberg',
-  ],
-  sangeetha: [
-    'Joseph Reyes',
-    'Kaelyn Rieffer',
-    'Lathisha Nair',
-    'Linnea Gear',
-    'Luis Molina',
-    'Michael Farris',
-    'Nina Rocket',
-    'Scott Harris',
-    'Sumnima Bhandari',
-    'Tanner Nielsen',
-    'Thalia Martinez',
-    'travis acker',
-    'Yulia Tikhonova',
-  ]
-}
+```
+AS A marketing agency
+I WANT a codebase that follows accessibility standards
+SO THAT our own site is optimized for search engines
 ```
 
------------------------------------------
+## Acceptance Criteria
 
-## Important Links
+```
+GIVEN a webpage meets accessibility standards
+WHEN I view the source code
+THEN I find semantic HTML elements
+WHEN I view the structure of the HTML elements
+THEN I find that the elements follow a logical structure independent of styling and positioning
+WHEN I view the image elements
+THEN I find accessible alt attributes
+WHEN I view the heading attributes
+THEN they fall in sequential order
+WHEN I view the title element
+THEN I find a concise, descriptive title
+```
 
-### Slack
-https://uofavirtfsfpt-byr6963.slack.com/
-### Bootcamp Spot
-https://bootcampspot.com
+## Review
 
------------------------------------------
+You are required to submit the following for review:
 
-## Resources We Love
+* The URL of the deployed application.
 
-### For Git
-[Coming at a later date!]
+* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
-### For HTML/CSS
-[Coming at a later date!]
-
-### For Javascript
-[Coming at a later date!]
-
-### For APIs
-[Coming at a later date!]
-
-### For Node
-[Coming at a later date!]
-
-### For MySQL
-[Coming at a later date!]
-
-### For Mongo
-[Coming at a later date!]
-
-### For React
-[Coming at a later date!]
+- - -
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
