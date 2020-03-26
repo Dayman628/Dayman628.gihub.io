@@ -1,3 +1,16 @@
+## Andrew's Addition to the README ##
+
+For this homework I downloaded the file provided to me, created a repository on GitHub and pushed my files up to it to make sure my repository was working correctly.
+From there I went in to VSCode and, following the When/Then instructions, adjusted index.html to reflect the client's requests for accessibility standards.
+
+
+
+
+
+
+
+
+
 # University of Arizona Online Coding Bootcamp
  
 ### March 2020 Cohort
