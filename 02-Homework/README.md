@@ -1,3 +1,14 @@
+## Andrew's Addition to the README ##
+
+For this homework I downloaded the file provided to me, created a repository on GitHub and pushed my files up to it to make sure my repository was working correctly.
+From there I went in to VSCode and, following the When/Then instructions, adjusted index.html to reflect the client's requests for accessibility standards.
+
+
+
+
+
+
+
 # 01 HTML CSS Git: Code Refactor
 
 One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
